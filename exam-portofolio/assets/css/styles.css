@@ -1,0 +1,479 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*FLEXBOX CLASSES*/
+/* Display Flex */
+.d-flex {
+    display: flex;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+/* Flex Direction */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Flex Wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* Justify Content (horizontaal)*/
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+/* Align Items (verticaal) */
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+/* Align Content */
+.align-content-start {
+    align-content: flex-start;
+}
+
+.align-content-end {
+    align-content: flex-end;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-between {
+    align-content: space-between;
+}
+
+.align-content-around {
+    align-content: space-around;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+/* Align Self */
+.align-self-auto {
+    align-self: auto;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-baseline {
+    align-self: baseline;
+}
+
+.align-self-stretch {
+    align-self: stretch;
+}
+
+/* Order */
+.order-first {
+    order: -1;
+}
+
+.order-last {
+    order: 13;
+}
+
+.order-0 {
+    order: 0;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+.order-6 {
+    order: 6;
+}
+
+.order-7 {
+    order: 7;
+}
+
+.order-8 {
+    order: 8;
+}
+
+.order-9 {
+    order: 9;
+}
+
+.order-10 {
+    order: 10;
+}
+
+.order-11 {
+    order: 11;
+}
+
+.order-12 {
+    order: 12;
+}
+
+/* Grow and Shrink */
+.flex-grow-0 {
+    flex-grow: 0;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+    flex-shrink: 1;
+}
+
+/*eigen css*/
+header, main, footer{
+    margin: 0 auto;
+}
+header, footer{
+    width: 1140px;
+}
+.section{
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    background-color: #0e0f12;
+    width: auto;
+    margin: 0 auto;
+}
+hr{
+    color: grey;
+}
+h2{
+    color: white;
+    padding: 10px 0px;
+    font-size: 35px;
+}
+h1{
+    padding-bottom: 31px;
+    font-size: 50px;
+}
+h3{
+    color: white;
+}
+
+#nav{
+    background-color: #0f1116;
+}
+#navmg{
+    margin: 5px 0px;
+}
+.gradient_text{
+    background: linear-gradient(90deg, #7aa2ff 0%, #6cf0c2 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+#nav_txt{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#nav_1{
+    margin-right: 500px;
+}
+#nav_menu{
+    text-decoration: none;
+}
+
+
+
+#hero{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+span{
+    color: white;
+}
+.ankor{
+    color: green;
+    font-size: 20px;
+}
+#klein_box{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+.kleine_box{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 20px;
+}
+p{
+    color: grey;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+#logo_placeholder{
+    border: 1px solid #7aa2ff;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #74c3e5;
+}
+.navpd{
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 10px;
+    color: white;
+}
+.navpd:hover{
+    color: green;
+}
+.button{
+    border: 1px solid transparent;
+    background-color: #7aa2ff;
+    color: #0a0c10;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px solid #7aa2ff;
+    background-color: white;
+}
+
+#portfolio{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+#pf_padding{
+    padding-bottom: 10px;
+}
+#portfolio_container{
+    gap: 10px;
+}
+#portfolio_container img{
+    width: 325px;
+    height: 225px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.portfolio_box{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #14161b;
+}
+.portfolio_btn{
+    color: green;
+    border:1px dotted green;
+    padding:5px;
+    border-radius: 10px;
+}
+.portfolio_btn:hover{
+    color: white;
+}
+.portfolio_p_m{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.dienst_box{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #14161b;
+}
+#diensten{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+#dienst_art{
+    gap: 10px;
+}
+#proces{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+#proces_container1{
+    padding-top: 15px;
+    gap: 15px;
+    width: 100%;
+}
+#proces_container2{
+    padding-top: 15px;
+    gap: 15px;
+    width: 100%;
+}
+.proces_box{
+    border: 1px solid grey;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    background-color: #14161b;
+}
+.w50{
+    width: 50%;
+}
+.vr{
+    border-left: 1px solid grey;
+    height: 80%;
+    padding: 5px 10px 100px 10px;
+}
+.bolletje{
+    border: 1px solid #7aa2ff;
+    border-radius: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #7aa2ff;
+}
+.proces_boxpd{
+    gap: 10px;
+    padding-bottom: 65px;
+}
+#over{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.over_box{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #14161b;
+}
+#klein_box2{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+#over_container{
+    gap: 20px;
+}
+.contact_box{
+    border: 1px solid grey;
+    padding: 0px 20px 20px 20px;
+    border-radius: 5px;
+    background-color: #14161b;
+    gap: 10px;
+}
+#contact{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+
+#form{
+    margin-top: 10px;
+
+}
+.form_inputNE{
+    background-color: #0e0f12;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 40px;
+    width: 550px;
+}
+.form_inputB{
+    background-color: #0e0f12;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 140px;
+    width: 1110px;
+}
+.form_pd{
+    padding-top: 25px;
+}
+footer{
+    padding: 30px 0px;
+}
